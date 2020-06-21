@@ -4,7 +4,7 @@ function CartPage(props) {
   const {cart } = props
 
     return(
-      <div>
+      <div> 
         <h1>Cart page</h1>
         {JSON.stringify.cart}
         {cart.map((anObjectMapped, index) => {
